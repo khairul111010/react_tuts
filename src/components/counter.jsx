@@ -13,6 +13,7 @@ class Counter extends React.Component {
     
     }
     render() { 
+        if (this.state.movies.length === 0) return `NO DATA FOUND`
         return <React.Fragment>
             <table className="table">
                 <thead>
