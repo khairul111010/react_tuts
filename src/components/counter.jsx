@@ -17,8 +17,8 @@ class Counter extends React.Component {
             <table className="table">
                 <thead>
                     <tr>
-                        <td>name</td>
-                        <td></td>
+                        <td>Name</td>
+                        <td>Delete</td>
                     </tr>
                 </thead>
                 <tbody>
